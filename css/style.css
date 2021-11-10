@@ -1,0 +1,751 @@
+/* ==--==--===---=====--===---====--===--===--===--=
+  Template Name : Veer Official
+  Created By    : Sheikh Al Imran
+  Envato Profile: https://www.facebook.com/al.imran.sujon.as160/
+  Website       : https://www.webdesignbd.net
+  Version       : 1.0.0
+  Support       : sheikhalimransujon@gmail.com
+==--==--===---=====--===---====--===--===--===--====*/
+
+
+/* ==--==--===---=====--===---====--===--===--===--=
+              [ CSS TABLE CONTENT]
+          -----------------------------
+    01 - General
+    02 - Typography
+    03 - Global Settings
+    04 - Header Area
+    05 - About Area
+    06 - Service Area
+    07 - Work Area
+    08 - Client Review Area 
+    09 - Best Team Area
+    10 - Blog Area
+    11 - Company Logo Area
+    12 - Contact Area
+    13 - Footer Area
+    14 - Top btn
+
+==--==--===---=====--===---====--===--===--===--====*/
+
+
+/* ==============
+  Google Fonts
+================*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,700;1,600&family=Poppins:wght@500;600&display=swap');
+
+/* ==============
+ 01 - General
+================*/
+body{
+  margin: 0;
+  padding: 0;
+}
+img{
+  max-width: 100%;
+  height: auto;
+}
+
+/* ==============
+02 - Typography
+================*/
+
+ul li{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+}
+
+/* =================
+03 - Global Settings
+==================== */
+
+
+
+/* =================
+ 04 - Header Area
+==================== */
+
+
+
+
+/* Mobile Menu */
+.mobile-menu{
+  display: none;
+}
+.mobile-menu-icon{
+  display: none;
+}
+
+
+
+header{
+  background: url(../images/header-cover-img.png);
+  width: 100%;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.veer-logo{
+  padding: 45px 15px;
+}
+.veer-menu ul{
+  display: flex;
+  justify-content: flex-end;
+}
+.veer-menu ul li a{
+  color: #fff;
+  display: block;
+  padding: 45px 15px;
+  text-transform: uppercase;
+  font-family: 'Poppins', sans-serif;
+  transition: .5s;
+}
+.veer-menu ul li a:hover{
+  color: #3498db;
+  transform: translateY(-10px);
+}
+.cover-title{
+ position: absolute;
+ top: 50%;
+ left: 50%;
+ transform: translate(-50%, -50%);
+ text-align: center;
+}
+.cover-title em{
+ color: #fff;
+ font-size: 30px;
+}
+.cover-title h1{
+ color: #fff;
+ font-size: 60px;
+}
+
+
+
+
+
+/* =================
+ 05 - About Area
+==================== */
+
+.about-area{
+ padding: 124px 0;
+ background-color: #f1f5f9;
+}
+.about-title em{
+  color: #252525;
+  font-size: 30px;
+  padding-bottom: 25px;
+}
+.about-title h2{
+  color: #252525;
+  font-size: 35px;
+  font-weight: 600;
+}
+.about-title p{
+  color: #575859;
+}
+.about-title .p1{
+  padding-top: 40px;
+}
+.about-title .p2{
+  margin-top: 30px;
+  padding-bottom: 55px;
+}
+.about-title button{
+  background-color: #3d9bd7;
+  color: #fff;
+  font-size: 12px;
+  width: 127px;
+  height: 35px;
+  border: none;
+}
+.about-img{
+  position: relative;
+  z-index: 1;
+}
+.about-img::after{
+  content: '';
+  display: block;
+  width: 288px;
+  height: 90px;
+  border: 10px solid #bddbef;
+  position: absolute;
+  top: -36px;
+  left: -38px;
+  z-index: -1;
+}
+.about-img::before{
+  content: '';
+  display: block;
+  width: 127px;
+  height: 90px;
+  border: 10px solid #bddbef;
+  position: absolute;
+  top: 85%;
+  right: -35px;
+  z-index: -1;
+}
+
+
+
+/* =================
+06 - Service Area
+==================== */
+
+
+.service-area{
+  padding: 123px 0;
+  text-align: center;
+}
+.service-title h1{
+  margin-bottom: 46px;
+  color: #252525;
+  font-weight: bold;
+  font-size: 35px;
+  position: relative;
+}
+.service-title h1::after{
+  content: '';
+  display: block;
+  width: 93px;
+  height: 2px;
+  background-color: #009bff;
+  position: absolute;
+  top: 50px;
+  left: 45%;
+}
+.service-title h1::before{
+  content: '';
+  display: block;
+  width: 93px;
+  height: 2px;
+  background-color: #85cfff;
+  position: absolute;
+  top: 57px;
+  left: 49%;
+}
+
+.service-title p{
+  margin-bottom: 68px;
+  color: #919191;
+  font-size: 14px;
+}
+.service-logo{
+  padding-bottom: 20px;
+}
+.service-title h5{
+  color: #3f3f3f;
+  font-size: 16px;
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+
+/* venobox */
+.venobox{
+ position: relative;
+}
+.venobox-play-icon{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+.venobox-play-icon a{
+  color: #fff;
+  font-size: 50px;
+}
+
+
+
+
+
+/* =================
+07 - work area
+==================== */
+
+.work-area{
+  padding: 113px 0;
+  text-align: center;
+}
+.work-title h1{
+  margin-bottom: 46px;
+  color: #252525;
+  font-weight: bold;
+  font-size: 35px;
+  position: relative;
+}
+.work-title h1::after{
+  content: '';
+  display: block;
+  width: 93px;
+  height: 2px;
+  background-color: #009bff;
+  position: absolute;
+  top: 50px;
+  left: 45%;
+}
+.work-title h1::before{
+  content: '';
+  display: block;
+  width: 93px;
+  height: 2px;
+  background-color: #85cfff;
+  position: absolute;
+  top: 57px;
+  left: 49%;
+}
+
+.work-title p{
+  margin-bottom: 68px;
+  color: #919191;
+  font-size: 14px;
+}
+.work-btn button{
+  background: transparent;
+  border: none;
+  color: #252525;
+  font-size: 15px;
+  font-weight: 500;
+  padding: 0 50px;
+}
+.work-btn .active{
+  color: #4c97c6;
+  text-decoration: line-through;
+}
+
+.all-works{
+  padding-top: 20px;
+}
+.work-img{
+  margin: 20px 15px;
+  transition: .5s;
+  cursor: pointer;
+}
+.work-img img{
+  width: 100%;
+}
+.work-img:hover{
+  transform: translateY(-10px);
+  box-shadow: 3px 4px 5px rgba(0, 0, 0, .7);
+}
+
+.read-more-btn{
+  padding-top: 51px;
+}
+.read-more-btn button{
+  width: 125px;
+  height: 37px;
+  background: #3d9bd7;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 500;
+  border: none;
+}
+
+
+
+
+/* =====================
+08 - Client Review Area
+======================== */
+
+.client-review-area{
+  text-align: center;
+  background: url(../images/background-img.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.client-review-title{
+  padding-top: 180px;
+}
+.client-review-title h1{
+  margin-bottom: 46px;
+  color: #252525;
+  font-weight: bold;
+  font-size: 35px;
+  position: relative;
+}
+.client-review-title h1::after{
+  content: '';
+  display: block;
+  width: 93px;
+  height: 2px;
+  background-color: #009bff;
+  position: absolute;
+  top: 50px;
+  left: 45%;
+}
+.client-review-title h1::before{
+  content: '';
+  display: block;
+  width: 93px;
+  height: 2px;
+  background-color: #85cfff;
+  position: absolute;
+  top: 57px;
+  left: 49%;
+}
+.client-review-title p{
+  margin-bottom: 68px;
+  color: #919191;
+  font-size: 14px;
+}
+.client-img img{
+  width: 120px;
+  height: 120px;
+  border-radius: 100%;
+  cursor: pointer;
+}
+.client-img-title{
+  padding-top: 30px;
+  padding-bottom: 50px;
+}
+.client-img-title h5{
+  color: #47494a;
+  font-size: 16px;
+}
+.review-rating{
+  padding-bottom: 180px;
+}
+.review-rating h6{
+  color: #696c6e;
+  font-size: 15px;
+}
+.review-rating i{
+  color: #e67d5f;
+}
+
+
+
+/* =====================
+09 - Best Team Area
+======================== */
+
+.team-area{
+  padding: 128px 0;
+  text-align: center;
+}
+.team-title h1{
+  margin-bottom: 46px;
+  color: #252525;
+  font-weight: bold;
+  font-size: 35px;
+  position: relative;
+}
+.team-title h1::after{
+  content: '';
+  display: block;
+  width: 93px;
+  height: 2px;
+  background-color: #009bff;
+  position: absolute;
+  top: 50px;
+  left: 45%;
+}
+.team-title h1::before{
+  content: '';
+  display: block;
+  width: 93px;
+  height: 2px;
+  background-color: #85cfff;
+  position: absolute;
+  top: 57px;
+  left: 49%;
+}
+.team-title p{
+  margin-bottom: 68px;
+  color: #919191;
+  font-size: 14px;
+}
+.all-team-member{
+  position: relative;
+}
+.team-member-detail{
+  background-color: #f3f6f7;
+  cursor: pointer;
+  transition: .5s;
+  position: relative;
+}
+.team-member-detail:hover{
+  background: none;
+  transform: translateY(-10px);
+}
+.team-member-img{
+  position: relative;
+}
+.team-member-img::after{
+  content: '';
+  display: block;
+  width: 310px;
+  height: 320px;
+  background: rgba(246, 249, 249, 60%);
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transition: .5s;
+}
+.team-member-img:hover::after{
+  opacity: 6;
+}
+.team-member-detail:hover .member-profile-link{
+  opacity: 9;
+}
+.member-profile-link{
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+}
+
+.member-profile-link a{
+  color: black;
+  font-size: 20px;
+  padding: 0 5px;
+  transition: .5s;
+}
+.member-profile-link a:hover{
+  color: #0e7b9e;
+  background: white;
+}
+.team-member-img img{
+  width: 310px;
+  height: 320px;
+}
+.team-member-title{
+  padding: 45px 0;
+}
+.team-member-title em{
+  color: #458fab;
+  cursor: pointer;
+}
+
+
+/* =====================
+10 - Blog Area
+======================== */
+
+
+.our-blog-area{
+  padding-bottom: 120px;
+  text-align: center;
+}
+.blog-title h1{
+  margin-bottom: 46px;
+  color: #252525;
+  font-weight: bold;
+  font-size: 35px;
+  position: relative;
+}
+.blog-title h1::after{
+  content: '';
+  display: block;
+  width: 93px;
+  height: 2px;
+  background-color: #009bff;
+  position: absolute;
+  top: 50px;
+  left: 45%;
+}
+.blog-title h1::before{
+  content: '';
+  display: block;
+  width: 93px;
+  height: 2px;
+  background-color: #85cfff;
+  position: absolute;
+  top: 57px;
+  left: 49%;
+}
+.blog-title p{
+  margin-bottom: 68px;
+  color: #919191;
+  font-size: 14px;
+}
+.blog-img img{
+  width: 240px;
+  height: 250px;
+}
+.blog-details{
+  text-align: left;
+}
+.blog-details em{
+  color: #e67d5f;
+}
+.blog-details .fa-heart{
+  color: red;
+}
+.blog-details span{
+  margin-left: 10px;
+  font-weight: normal;
+  font-family: sans-serif;
+  color: #272727;
+  font-size: 15px;
+}
+.blog-details h4{
+  color: #3d9cd8;
+  font-size: 20px;
+  padding-top: 20px;
+}
+.blog-details p{
+  color: #747474;
+  font-size: 14px;
+}
+.blog-details i{
+  padding-top: 50px;
+  margin: 0 10px;
+}
+
+
+/* =====================
+11 - Company Logo Area
+======================== */
+
+.company-logo-area{
+  padding: 121px 0;
+}
+.item img{
+  width: 200px;
+  height: 200px;
+  padding: 0 80px;
+  cursor: pointer;
+}
+
+
+
+
+/* =====================
+12 - Contact Area
+======================== */
+
+.contact-area{
+  background: url(../images/map.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 70vh;
+  position: relative;
+}
+.contact-form{
+  background: rgba(33, 30 ,45, 90%);
+  width: 1110px;
+  height: 388px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate( -50%, -50%);
+}
+.input-form{
+  position: absolute;
+  left: 20%;
+}
+.input-form label{
+  display: block;
+  color: #fff;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: 400;
+  padding-top: 40px;
+}
+.input-form input{
+  background: transparent;
+  border: 1.3px solid #747479;
+  width: 345px;
+  height: 42px;
+  color: #fff;
+  outline: none;
+  margin: 10px 0;
+  padding: 20px 10px;
+}
+.input-form textarea{
+  display: block;
+  background: transparent;
+  border: 1.3px solid #747479;
+  width: 694px;
+  outline: none;
+  color: #fff;
+  padding: 4px 10px;
+}
+.input-form button{
+  margin-top: 20px;
+  background: #3d9bd7;
+  border: none;
+  width: 143px;
+  height: 45px;
+  color: #fff;
+  font-weight: 400;
+}
+
+
+/* =====================
+13 - Footer Area
+======================== */
+
+.footer-area{
+  background: #fff;
+}
+.footer-menu ul{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 20px;
+}
+.footer-menu ul li a{
+  display: block;
+  padding: 10px 10px;
+  color: #acacac;
+  font-size: 13px;
+  font-weight: 400;
+  transition: .5s;
+}
+.footer-menu ul li a:hover{
+  transform: translateY(-10px);
+  color: hsl(234, 97%, 58%);
+}
+.footer-social-icon{
+  margin-top: 30px;
+  text-align: right;
+}
+.footer-social-icon a{
+  padding: 10px 10px;
+  color: #acacac;
+  transition: .5s;
+}
+.footer-social-icon a:hover{
+  color: hsl(234, 97%, 58%);
+}
+
+
+
+/* =====================
+14 - Top Btn
+======================== */
+
+.top-btn-icon{
+  background: rgba(0, 0, 0, .7);
+  width: 50px;
+  height: 50px;
+  position: fixed;
+  top: 90%;
+  right: 20px;
+  cursor: pointer;
+  color: #fff;
+}
+.top-btn-icon a{
+  display: flex;
+  justify-content: center;
+  padding-top: 5px;
+  font-size: 25px;
+  color: #fff;
+}
+.top-btn-icon h6{
+  display: flex;
+  justify-content: center;
+  margin-top: -8px;
+}
